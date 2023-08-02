@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .container {
+        background-image: url(Image/Simple.jpg);
+        position: relative;
+        height: 500px;
+        width: 80%;
+        top: 80px;
+        left: 100px;
+    }
+
+    .midnav {
+        position: absolute;
+        left: 10%;
+        top: 2%;
+        word-spacing: 10px;
+        color: white;
+    }
+
+    .rightnav {
+        position: absolute;
+        left: 78%;
+        top: 0;
+        color: white;
+    }
+
+    .leftnav {
+        position: absolute;
+        top: 2%;
+        left: 5%;
+        color: white;
+    }
+
+    .content {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        font-size: xx-large;
+        color: white;
+
+    }
+
+    .content-text {
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        color: white;
+
+    }
+
+    .portfolio-button {
+        position: absolute;
+        top: 73%;
+        left: 20%;
+        border-radius: 30px;
+        border-color: white;
+        cursor: pointer;
+
+    }
+
+    .portfolio-button button {
+        align-items: center;
+        appearance: none;
+        background-color: #3EB2FD;
+        background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+        background-size: calc(100% + 20px) calc(100% + 20px);
+        border-radius: 100px;
+        border-width: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: CircularStd, sans-serif;
+        font-size: 1rem;
+        height: auto;
+        justify-content: center;
+        line-height: 1.5;
+        padding: 6px 20px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color .2s, background-position .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+
+    .button-21:active,
+    .button-21:focus {
+        outline: none;
+    }
+
+    .button-21:hover {
+        background-position: -20px -20px;
+    }
+
+    .button-21:focus:not(:active) {
+        box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="leftnav">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>
+            <div class="midnav">
+                <span class="home">Home</span>
+                <span class="Service">Service</span>
+                <span class="About">About</span>
+            </div>
+            <div class="rightnav">
+                <ul>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <span>Simple <br> Web Design</span>
+        </div>
+        <div class="content-text">
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing Iusto natus <br>reprehenderit necessitatibus
+                perspiciatis iure eos!<br> Explicabo perferendis sit nam quod velit. Dolor, <br>eaque sit quos natus
+                nisi delectus unde animi.</span>
+        </div>
+        <div class="portfolio-button">
+            <button>Portfolio</button>
+        </div>
+
+</body>
+
+</html>

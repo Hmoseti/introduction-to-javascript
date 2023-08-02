@@ -1,0 +1,131 @@
+.container{
+    position: relative;
+    background-image: url(pexels-photo-5211438.jpeg);
+    background-size: cover;
+    height: 500px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+
+}
+.nav{
+    background-color:blueviolet;
+    height: 500px;
+    opacity: 0.4;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+.home{
+    position: absolute;
+    color: white;
+    left: 35%;
+    top: 2%;
+    text-decoration: none;
+ }
+.about{
+    position: absolute;
+    color: white;
+    left: 40%;
+    top: 2%; 
+    text-decoration: none;
+}
+ .courses{
+    position: absolute;
+    color: white;
+    left:45% ;
+    top: 2%;
+    text-decoration: none;
+}
+.contact{
+    position: absolute;
+    color: white;
+    left: 52%;
+    top: 2%;
+    text-decoration: none;
+}
+.pages{
+    position: absolute;
+    color: white;
+    left: 58%;
+    top: 2%;
+    text-decoration: none;
+}
+.rightnav{
+    position: absolute;
+    color: white;
+    left: 80%;
+    top: 2%;
+    
+}
+.leftnav1{
+    position: absolute;
+    color: white;
+    left: 10%;
+    top: 2%;
+    font-size: large;
+    font-weight: bolder;
+}
+.leftnav2{
+    position: absolute;
+    color: white;
+    left: 2%;
+    top: 90%;
+    font-size: small;
+    font-weight: lighter;
+}
+hr{
+    position: relative;
+    top: 10%;
+}
+.text h2{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 35%;
+    left: 32%;
+    font-size: x-large;
+}
+.mybutton{
+  position: absolute;
+  top: 60%;
+  left: 39%;
+
+}
+.online p{
+    position: absolute;
+    top: 77%;
+    left: 39%;
+}
+.online h2{
+    position: absolute;
+    top:80% ;
+    left: 32%;
+    font-size: xx-large;
+}
+img{
+    height: 150px;
+}
+/* .part1{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+    padding: 7px;  
+} */
+
+    
+.waves{
+    position: relative;
+    bottom: 39%;
+}
+.part1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
